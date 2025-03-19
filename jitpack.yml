@@ -1,8 +1,8 @@
 install:
   - FILE="-Dfile=ffmpeg-kit-full-6.0-2.aar"
-  - mvn install:install-file $FILE -DgroupId=com.ffmpeg.sample -DartifactId=ffmpeg -Dversion=1.0.13 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.ffmpeg.sample -DartifactId=ffmpeg -Dversion=1.0.14 -Dpackaging=aar -DgeneratePom=true
    # Install smart-exceptions-java manually from a local JAR
-  - FILE="-Dfile=libs/smart-exceptions-java-0.2.1.jar"
+  - FILE="-Dfile=smart-exceptions-java-0.2.1.jar"
   - mvn install:install-file $FILE -DgroupId=com.arthenica -DartifactId=smart-exceptions-java -Dversion=0.2.1 -Dpackaging=jar -DgeneratePom=true
   # Run Maven build to resolve all dependencies
   - mvn clean install -DskipTests=true
