@@ -6,12 +6,18 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ffmpeg.sample</groupId>
     <artifactId>ffmpeg</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <dependencies>
         <dependency>
-            <groupId>com.truvideo.sdk.video.utils</groupId>
+            <groupId>com.ffmpeg.sample</groupId>
             <artifactId>smart-exception-java</artifactId>
+            <version>0.2.1</version>
+            <scope>compile</scope>
+    	</dependency>
+        <dependency>
+            <groupId>com.ffmpeg.sample</groupId>
+            <artifactId>smart-exception-common</artifactId>
             <version>0.2.1</version>
             <scope>compile</scope>
     	</dependency>
