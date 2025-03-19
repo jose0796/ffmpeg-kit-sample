@@ -6,22 +6,20 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ffmpeg.sample</groupId>
     <artifactId>ffmpeg</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
 
     <dependencies>
         <dependency>
-            <groupId>com.ffmpeg.sample</groupId>
-            <artifactId>smart-exception-java</artifactId>
+            <groupId>com.arthenica</groupId>
+            <artifactId>smartexception-java</artifactId>
             <version>0.2.1</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/smart-exception-java-0.2.1.jar</systemPath>
+            <scope>compile</scope>
     	</dependency>
         <dependency>
-            <groupId>com.ffmpeg.sample</groupId>
-            <artifactId>smart-exception-common</artifactId>
+            <groupId>com.arthenica</groupId>
+            <artifactId>smartexception-common</artifactId>
             <version>0.2.1</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/smart-exception-common-0.2.1.jar</systemPath>
+            <scope>compile</scope>
     	</dependency>
     </dependencies>
 </project>
